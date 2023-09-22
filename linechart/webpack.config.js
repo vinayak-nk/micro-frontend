@@ -1,10 +1,3 @@
-# micro-frontend
-
-mkdir barcharts, cd barcharts
-npm init -y
-npm i echarts html-webpack-plugin nodemon webpack webpack-cli webpack-dev-server
-
-
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ModuleFederationPlugin = require('webpack/lib/container/ModuleFederationPlugin')
 
